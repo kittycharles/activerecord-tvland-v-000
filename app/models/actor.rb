@@ -4,4 +4,5 @@ class Actor < ActiveRecord::Base[4.2]
 
   def full_name
     self.first_name + self.last_name
+  end
 end
