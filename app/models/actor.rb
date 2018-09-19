@@ -1,4 +1,4 @@
-class Actor < ActiveRecord::Base[4.2]
+class Actor < ActiveRecord::Base
   has_many :characters
   has_many :shows,  through: :characters
 
